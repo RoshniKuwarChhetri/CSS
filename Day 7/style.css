@@ -1,0 +1,37 @@
+.box{
+    height: 700px;
+    width: 700px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: center; */
+    /* justify-content: flex-start;
+    justify-content: flex-end; */
+    /*justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* align-items: flex-start;
+    align-items: self-end;
+    align-items: center;
+
+
+    gap:20px;
+    row-gap: 10px;
+    column-gap: 10px; */
+
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse;
+    flex: nowrap; */
+}
+
+.child{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+}

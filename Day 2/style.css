@@ -1,0 +1,68 @@
+@import url("./home.css");
+@import url("./about.css");
+@import url("./contact.css");
+/* button:hover{
+    background-color: aqua;
+    color: antiquewhite;
+    outline: none;
+} */
+
+/* button:active{
+    background-color: blueviolet;
+    color: aliceblue;
+    outline: none;
+    border-radius: 10px;
+} */
+ /* input:focus{
+    color: blueviolet;
+ } */
+  /* p:first-child{
+
+    color: violet; */
+  /* }
+  p:last-child{
+    color: blue;
+  }
+  li:last-child{
+    color: green;
+  } */
+   /* li:nth-child(3){
+    color: blue;
+   } */
+
+    /* li:nth-child(odd){
+        color: red;
+    }
+
+    li:nth-child(odd){
+        color: palevioletred;
+    } */
+
+    /* p::first-line{
+        color: green;
+    }
+    p::first-letter{
+        color: blueviolet;
+    } */
+        /* P::selection{
+        background-color: blueviolet;
+        color: blue;
+    } */
+    /* p::before{
+        content:"😉"
+     }
+    p::after{
+        content:"😊"
+     } */
+      input[type="text"]{
+        color: brown;
+        outline: none;
+        background-color: blue;
+      }
+
+      input[required]{
+        background-color: blue;
+        border: none;
+        border-radius: 10px;
+      }
+    

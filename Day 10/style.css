@@ -1,0 +1,37 @@
+/* .box{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    /* transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+     */
+     /* transition: all 5s ease-in 3s;
+}
+.box:hover{
+    height: 600px;
+    width: 500px;
+    background-color: blue;
+} */
+
+
+/* transition-timing-function: liner ease-in ease-out ease-in-out */
+/* transition shorthand property-transition-property
+    transition-duration
+    transition-timing-function
+    transition-delay
+     */
+    /* bg-text col size */ 
+button{
+        
+        transition: all 5s ease 3s;
+    }
+button:hover{
+    colour:
+    height: 40ppx;
+    width: 80px;
+    background-color: aqua;
+
+}

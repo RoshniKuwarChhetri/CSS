@@ -1,0 +1,45 @@
+/* h1{
+    color:red;
+}
+h2{
+    color:greenyellow
+}
+p{
+    color:brown
+} */
+
+/* #hi{
+    color: blueviolet;
+}
+
+.hello{
+    color:blue
+} */
+
+/* *{
+    color:palevioletred
+} */
+
+/* h1,h2{
+    color:blue
+}
+//decendent    
+*/
+ /* div p{
+    color:blueviolet
+ } 
+ //child    
+ */
+  /* .a>p{
+    color:aquamarine;
+  }
+  adjacent sibling  
+  */
+   /* div+p{
+    color:blue;
+   } 
+   //general sibling 
+   */
+    /* div~p{
+        color: blue;
+    } */

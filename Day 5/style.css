@@ -1,0 +1,52 @@
+/* div{
+    height: 500px;
+    width: 500px;
+    border: 5px;
+    color: aliceblue;
+   
+    background-image: url("./image.png");
+    background-color: rgb(4, 126, 233);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+    background-position: left ;
+    background-position: right ;
+    background-position: center ;
+    background-position: top ;
+    background-position: bottom right ;
+    background-position: bottom center ;
+
+    background-size: contain;
+    background-size: cover;
+
+
+
+} */
+ /* div{
+    border: 5px solid;
+    display: inline;
+    height: 500px;
+    width: 500px;
+ }
+
+*/
+/* span{ 
+    border:5px solid;
+    display:block;
+    height: 50px;
+    width: 50px;
+ } 
+
+
+
+
+ .box2{
+    
+    /* position: absolute; */
+    /* position: sticky;
+    top: 50px;
+    position: static;
+    
+
+ } */ 

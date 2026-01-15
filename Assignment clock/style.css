@@ -1,0 +1,71 @@
+
+div{height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.clock{
+
+    height: 400px;
+    width: 400px;
+    border: 10px solid rgb(245, 6, 58);
+    border-radius: 50%;
+    gap: 20px;
+}
+.hrs{
+    background-color: black;
+    height: 10px;
+    width: 180px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+    animation-name: hours;
+    animation-duration: 43200s; 
+    animation-iteration-count: infinite; 
+}
+
+.min{
+    height: 7px;
+    width: 150px;
+    background-color: blueviolet;
+    transform-origin: left center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: minut;
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+
+}
+.sec{
+    height: 5px;
+    width: 150px;
+    background-color: rgb(9, 216, 253);
+    transform-origin: left center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: second;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hours {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes minut {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes second {
+    to{
+        transform: rotate(360deg);
+    }
+}

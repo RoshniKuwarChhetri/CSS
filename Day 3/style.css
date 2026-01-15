@@ -1,0 +1,54 @@
+/* .box1{
+    height:500px;
+    width: 500px;
+    background-color: blue;
+}
+.box2{
+    height: 50%;
+    width: 50%;
+    background-color:purple ;
+} */
+ /* *{
+    margin:0;
+    padding:0;
+ }
+ .container{
+    height: 50vh;
+    width: 50vh;
+    background-color:blueviolet;
+    font-size: 25px;
+ }
+ .navbar{
+
+    height: 50%;
+    width: 50%;
+    background-color: palevioletred;
+    font-size: 2rem;
+ } */
+  div{
+    /* //border: 1px; */
+    /* height: 100px;
+    width: 100px; */
+
+    /* Shorthand-property: add margin in all the direction */
+    margin: 100px;
+
+    /* adds 50px margin on top- bottom and 100left-right */
+    /* margin:50px 100px */
+
+    /* adds 10px(top), 40px(right) ,60px(bottom),80px(left)*/
+    /* margin 50px 100px 150px 200px */
+    /* margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:100px; */
+
+    /* border:border thikness border style(solid,double,dotted,dash) border color */
+     border: 20px double pink;
+     /* same as margin */
+     padding:100px;
+     padding:50px 100px;
+     padding:20px 40px 60px 80px;
+
+
+  }

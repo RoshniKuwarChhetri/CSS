@@ -1,0 +1,57 @@
+div{
+    border:1px solid black;
+}
+.box{
+    height: 800px;
+    width: 1000px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+
+
+.header,.footer{
+    height:18%;
+    width:90%;
+    background-color: white;
+
+}
+
+.content{
+    height: 54%;
+    width: 90%;
+    display: flex;
+
+}
+
+.aside{
+    height: 90%;
+    width: 25%;
+    background-color: white;
+    
+}
+
+.article{
+    height: 90%;
+    width: 65%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+
+
+}
+
+.image{
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+

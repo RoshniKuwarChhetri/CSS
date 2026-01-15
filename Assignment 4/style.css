@@ -1,0 +1,29 @@
+
+.container{
+    height: 700px;
+    width: 900px;
+    border: 2px solid;
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.container div {
+    border: 2px solid;
+}
+.box5{
+     grid-column-start: 5;
+     grid-column-end: 7;
+}
+.box6{
+    grid-column-start: 1;
+     grid-column-end: 3;
+}
+.box7{
+    grid-column-start: 3;
+     grid-column-end: 5;
+}
+
+/* repeat(6,1fr) */

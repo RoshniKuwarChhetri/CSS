@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid white;
+    height: 80px;
+    width: 600px;
+    overflow: hidden;
+}
+.content{
+     color: aliceblue;
+     animation-name: mark;
+     position: relative;
+     animation-iteration-count: infinite;
+     animation-delay:1s ;
+     
+     animation-duration: 5s;
+}
+
+@keyframes mark {
+    from{
+      top: 10px;
+      left: 20px;
+    }
+
+    to{
+     top: 10px;
+     left:1200px
+    }
+}

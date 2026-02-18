@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+div{
+    color: greenyellow;
+}
+.container{
+    width:600px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    gap: 2%;
+}
+.box1{
+     grid-area: 1/1/2/4;
+}
+.box2{
+    grid-area: 2/1/4/2;
+}
+.box3{
+    grid-area: 2/2/3/-1;
+}
+.box4{
+    grid-area: 3/2/4/3;
+}
+.box5{
+    grid-area: 3/3/4/-1;
+}
+.box6{
+   grid-area: 4/1/-1/-1
+}
+.box{
+    background-color: greenyellow;
+}
+.box7{
+    grid-area: 2/2/4/4;
+    width: 60%;
+    height: 60%;
+    align-self: center;
+    justify-self: center;
+    border: 2px solid purple
+}

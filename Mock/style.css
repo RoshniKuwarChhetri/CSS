@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("./galaxy.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    position: sticky;
+    top: 5px;
+    height: 60px;
+    border-bottom: 1px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.st {
+    font-size: 25px;
+    font-family: serif;
+}
+
+.planet {
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    padding: 80px 100px;
+}
+
+img {
+    height: 400px;
+}
+
+.text {
+    width: 420px;
+}
+
+.inside {
+    margin: 20px;
+}
+
+.inside p {
+    line-height: 2;
+    color: white;
+}
+
+.box {
+    display: flex;
+    gap: 15px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px 100px;
+}
+
+.num {
+     width: 400px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.title {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.value {
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,69 +1,78 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
+.container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    overflow: hidden;
 }
 
-video{
+/* video background */
+video {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-
-.text{
-   position: absolute;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-evenly;
-   color: antiquewhite;
-   
-}
-.button{
-    width: 100%;
+/* center text */
+.text {
     position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    text-align: center;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    top: 400px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* buttons */
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
     gap: 40px;
 }
-.box{
-     /* display: flex;
-    align-items: center;
-    justify-content: space-around;  */
-     
+
+/* button box */
+.box {
     height: 35px;
     width: 150px;
     background-color: black;
     border: 2px solid white;
     border-radius: 5px;
-    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    cursor: pointer;
 }
 
-.scroll{
+/* scroll text */
+.scroll {
     position: absolute;
-    top: 450px;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 17px;
     color: aliceblue;
-    animation: scr .5s linear 0s infinite alternate;
+    animation: scr 0.5s linear infinite alternate;
 }
+
 @keyframes scr {
-    from{
-      top:450px;
+    from {
+        bottom: 40px;
     }
-    to{
-      top: 470px;
+    to {
+        bottom: 20px;
     }
 }
